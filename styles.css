@@ -1,0 +1,581 @@
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-section{
+  width: 100%;
+  height: 670px;
+  background-image: url(img/plant1.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul li{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+nav ul li a{
+  text-decoration: none;
+}
+.active{
+  border-bottom: 3px solid #FFE600;
+  border-collapse: separate;
+  border-spacing: 6px;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+  margin-left: 140px;
+}
+.navigation a {
+  color: #fff;
+  font-size: 16px;
+  opacity: 1;
+}
+nav input{
+  width: 260px ;
+  height: 40px;
+  outline: none;
+  border: 1px solid #FFE600CC;
+  background:  #FFFFFF1A ;
+  border-radius: 10px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+nav input::placeholder{
+  color: rgba(255, 255, 255, 0.541);
+}
+
+.title{
+  margin-top: 200px;
+  margin-bottom: 200px;
+  /*transform: translate(50%,50%);*/
+}
+.title h1{
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+
+}
+.title h2{
+  font-size: 40px;
+  color: #FFE600;
+  text-align: center;
+  margin-top: 40px;
+  transition-property: word-spacing;
+  transition-duration: 0.2s;
+}
+.title h2:hover{
+  cursor: pointer;
+  word-spacing: 25px;
+}
+
+.container{
+  max-width: 1024px;
+  width: 95%;
+  margin:0 auto;
+  margin-top: 20px;
+}
+.news-head{
+  width: 100%;
+  height: 70px;
+}
+.news-head h1{
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 3px solid #FFE600;
+  padding-bottom: 6px;
+}
+.scrol-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.scrol-right span{
+  width: 30px;
+  height: 30px;
+  background-color: #69A44A;
+  opacity: 0.2;
+  margin-left: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scrol-right span:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.news-wrapper{
+  margin-top: 40px;
+  width: 250px;
+  height: 340px;
+  background-image: url(img/plant2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  border-radius: 15px;
+  position: relative;
+}
+.description{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 0px 15px 15px;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.5;
+  transition-property: height;
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+.description:hover{
+  height: 180px;
+  cursor: pointer;
+  overflow: visible;
+}
+.description h4{
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.description p{
+  font-size:10px;
+  color: #e2e2e2;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.description h5{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFE600;
+}
+
+.donate-head{
+  width: 100%;
+  height: 70px;
+  margin-top: 40px;
+}
+.donate-head h1{
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 3px solid #FFE600;
+  padding-bottom: 6px;
+}
+.donate-wrapper{
+  margin-top: 40px;
+  background-color: #69A44A;
+  width:35%;
+  height: 450px;
+  position: relative;
+  border-radius: 22px 22px 10px 10px;
+  transition-property: all;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+}
+.donate-wrapper:hover{
+  margin-top: 20px;
+  box-shadow: 0px 3px 9px #e2e2e2;
+}
+.image{
+  position:absolute;
+  width: 100%;
+  height: 350px;
+  background-color: #F9F9F9 ;
+  border-radius: 20px;
+  top: 0;
+}
+.image img{
+  width: 100%;
+  height: 80%;
+}
+.content-text{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.content-text h1{
+  font-weight: bold;
+  margin-top: 45px;
+}
+.second{
+  background-color: #ebe6e6;
+  margin-top: 50px;
+}
+.protest{
+  display: flex;
+  justify-content: space-between;
+}
+.protest-image{
+  width: 45%;
+  margin: 40px 0;
+  background-image: url(img/namaxvani.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+
+}
+.protest-wrapper{
+  width: 45%;
+  height: 500px;
+  padding: 40px 0;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.protest-wrapper h1{
+  width: 255px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: gray;
+}
+.protest-wrapper p{
+  font-size: 15px;
+    text-align: center;
+    width: 290px;
+    margin-top: 11px;
+    padding-bottom: 40px;
+}
+.protest-wrapper input{
+  height: 40px;
+  width: 200px;
+  outline: none;
+  border-style: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.protest-wrapper input::placeholder{
+  color: #cfcfcf;
+}
+
+
+.subscribe{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-image: url(img/sunflowerss.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cover{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+  position: absolute;
+}
+.recover{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+}
+.subscribe-us{
+  width: 40%;
+  height: 80%;
+}
+.recover{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recover form{
+  width: 40%;
+  height: 80%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recover form input{
+  height: 40px;
+    width: 250px;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.recover form button{
+  height: 40px;
+    width: 150px;
+    outline: none;
+    background-color: #1fd31f;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subscribe-us{
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+}
+.subscribe-us h1{
+  font-weight: bolder;
+  font-size: 45px;
+  color: #fff;
+  margin:0 auto;
+}
+.subscribe-us p{
+  color: #fff;
+  margin:0 auto;
+  line-height: 60px;
+}
+
+.organization-wrapper{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 45px;
+  color: #69A44A;
+}
+
+.organization{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.info{
+  width:23%;
+  height: 400px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.info img{
+  width: 80%;
+  height: 47%;
+  margin:0 auto;
+  margin-top: 15px;
+  background-color: #cdcccc;
+  border-radius: 50%;
+}
+.info-title{
+  width: 80%;
+  height: 40%;
+  align-self: center;
+  margin-top:auto ;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-title p{
+  text-align: center;
+  font-size: 14px;
+}
+.view-more{
+  align-self: flex-end;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+}
+.view-more a{
+  font-weight: bold;
+  color: #69A44A;
+  margin-right: 20px;
+  transition: margin-right;
+  transition-delay: 0.1s;
+  transition-duration: 0.3s;
+  text-decoration: none;
+}
+.view-more a:hover{
+  margin-right: 30px;
+}
+
+.donation{
+  width: 100%;
+  height: 400px ;
+  background-color: greenyellow;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(img/sunflowerss.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.donation-title{
+  width: 40%;
+  height: 70%;
+  display: flex;
+}
+.donation-title h1{
+     font-size: 50px;
+     text-align: center;
+     align-self: center;
+     font-weight: bold;
+     color: #FFFFFF;
+}
+.donation-content{
+  width: 40%;
+  height: 70%;
+  background-color: #FFFFFF;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-wrapper{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-wrapper h2{
+   font-weight: bold;
+}
+.donation-cash button{
+  outline: none;
+  width: 20%;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: bold;
+  color: gray;
+  border: none;
+  transition: all;
+  transition-delay: 0.1s;
+  transition-duration: 0.4s;
+}
+.donation-cash button:hover{
+  cursor: pointer;
+  background-color: #b8b8b8d5;
+  color: black;
+}
+.donation-cash button:focus{
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  border: 1px solid rgb(0, 170, 14);
+}
+.donation-cash input{
+  width: 35%;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  border-style: none;
+  border: 1px solid gray;
+}
+
+.donation-cash input::placeholder{
+  color: gray;
+}
+
+
+
+.footer{
+  background-color: #033e03;
+  margin-top: -20px;
+}
+
+
+.mail-box{
+  width: 250px;
+  height: 40px;
+  background-color: red;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+}
+.mail-box input{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+}
+.mail-box input::placeholder{
+  padding-left: 20px;
+}
+.mail-send{
+  width: 17%;
+  height: 90%;
+  background-color: #35c935;
+  position: absolute;
+  right: 0;
+  border-radius: 10px;
+  align-self: center;
+  transition-property: width;
+  transition-delay: 0.1s;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+}
+.mail-send img{
+  width: 20px;
+  margin: 0 auto;
+}
+.mail-send:hover{
+  width: 25%;
+  cursor: pointer;
+}
+
+.footer-nav{
+  width: 70%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-box{
+  width: 16%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer-box a{
+  text-decoration: none;
+  color: #bbbbbb;
+  line-height: 25px;
+}
+.footer-box a h4{
+  color: #fff;
+  font-size: 13px;
+}
+.footer-box a p{
+  font-size: 13px;
+}
+.media{
+  margin-top: 20px;
+}
+.media img{
+  width: 20px;
+  height: 20px;
+}
+.logo1{
+  width: 60px;
+  height: 60px;
+  margin-top: 0;
+  padding-top: 0;
+}
